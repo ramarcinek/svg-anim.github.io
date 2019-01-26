@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+    top: 37%;
+    left: 48%;
+    transform: translate(-37%, -48%);
+    z-index: 5;
+    background: none;
+    outline: none;
+    border: 0;
+    text-align: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.fas {
+    width: 100px;
+    color: palevioletred;
+    font-size: 45px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    transition: .4s all;
+    box-sizing: border-box;
+}
+
+.fas:hover {
+    color: #fff;
+    border-color: palevioletred;
+    transform: scale(1.05);
+}
